@@ -9,7 +9,7 @@ int main(void)
 {
     SDL_Init(SDL_INIT_VIDEO);
 
-    SDL_Window* win = SDL_CreateWindow("Poster",SDL_WINDOWPOS_UNDEFINED,SDL_WINDOWPOS_UNDEFINED,1366,768,SDL_WINDOW_FULLSCREEN);
+    SDL_Window* win = SDL_CreateWindow("Poster",SDL_WINDOWPOS_UNDEFINED,SDL_WINDOWPOS_UNDEFINED,1366,768,0);
 
     SDL_Event event;
 
